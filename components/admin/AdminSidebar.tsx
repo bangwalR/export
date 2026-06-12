@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import {
   LayoutDashboard, Mail, FileText, Briefcase, Image, MessageSquare,
   Users, HelpCircle, Settings, LogOut, Menu, X,

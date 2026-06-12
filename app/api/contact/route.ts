@@ -28,7 +28,7 @@ function checkRateLimit(ip: string): boolean {
 }
 
 // In-memory store for enquiries (persists for the server session)
-export const enquiriesStore: Array<{
+const enquiriesStore: Array<{
   id: string;
   name: string;
   company: string;
