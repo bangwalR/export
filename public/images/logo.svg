@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" fill="none">
+  <!-- Globe fill -->
+  <ellipse cx="100" cy="105" rx="42" ry="42" fill="white" fill-opacity="0.08"/>
+  <!-- Globe outline -->
+  <ellipse cx="100" cy="105" rx="42" ry="42" stroke="white" stroke-width="2.5" fill="none"/>
+  <!-- Globe longitude line -->
+  <ellipse cx="100" cy="105" rx="20" ry="42" stroke="white" stroke-width="1.5" fill="none"/>
+  <!-- Globe equator -->
+  <line x1="58" y1="105" x2="142" y2="105" stroke="white" stroke-width="1.5"/>
+  <!-- Globe latitude lines -->
+  <line x1="63" y1="85" x2="137" y2="85" stroke="white" stroke-width="1"/>
+  <line x1="63" y1="125" x2="137" y2="125" stroke="white" stroke-width="1"/>
+
+  <!-- Gear (top-right of globe) -->
+  <g transform="translate(118, 78)">
+    <circle cx="0" cy="0" r="14" fill="white" fill-opacity="0.15" stroke="white" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="7" fill="white" fill-opacity="0.3"/>
+    <!-- Gear teeth -->
+    <rect x="-3" y="-18" width="6" height="8" rx="1.5" fill="white" fill-opacity="0.85"/>
+    <rect x="-3" y="10"  width="6" height="8" rx="1.5" fill="white" fill-opacity="0.85"/>
+    <rect x="10"  y="-3" width="8" height="6" rx="1.5" fill="white" fill-opacity="0.85"/>
+    <rect x="-18" y="-3" width="8" height="6" rx="1.5" fill="white" fill-opacity="0.85"/>
+    <rect x="7"   y="-14" width="6" height="8" rx="1.5" fill="white" fill-opacity="0.85" transform="rotate(45 10 -11)"/>
+    <rect x="-13" y="6"   width="6" height="8" rx="1.5" fill="white" fill-opacity="0.85" transform="rotate(45 -10 9)"/>
+    <rect x="6"   y="6"   width="6" height="8" rx="1.5" fill="white" fill-opacity="0.85" transform="rotate(-45 9 9)"/>
+    <rect x="-12" y="-14" width="6" height="8" rx="1.5" fill="white" fill-opacity="0.85" transform="rotate(-45 -9 -11)"/>
+  </g>
+
+  <!-- Circular arrow top (going right) -->
+  <path d="M 60 62 A 52 52 0 0 1 148 72" stroke="white" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <polygon points="148,72 138,62 155,60" fill="white"/>
+
+  <!-- Circular arrow bottom (going left) -->
+  <path d="M 140 148 A 52 52 0 0 1 52 138" stroke="white" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <polygon points="52,138 62,148 45,150" fill="white"/>
+
+  <!-- "TranCore" text in white -->
+  <text x="38" y="183" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="white" letter-spacing="1">TranCore</text>
+
+  <!-- "X" in gold/orange -->
+  <text x="158" y="183" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="#C9A84C" letter-spacing="0">X</text>
+</svg>
